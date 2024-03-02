@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ხელფასის გამომთვლელი</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <h1 class="head">salary counter app</h1>
+    <section>
+        <div class="months">
+            <div class="mon cur">
+            <h1>current month</h1>
+            <div class="month">
+                <span>total gross</span><input type="text" id="curmonthgross">
+                <span>bonus</span><input type="text" id="curmonthbonus">
+                <span>work hrs</span><input type="text" id="curmonthworkinghrs">
+                <span>monthly limit hrs</span><input type="text" id="curmonthlimithrs">
+                <span>sick leave days</span><input type="text" id="curmonthsickleave">
+                <span>paid vacation</span><input type="text" id="curmonthvacation">
+                <span>justify leave count</span><input type="text" id="curmonthjustify">
+            </div>
+        </div>
+        <div class="mon prev">
+            <h1>previous month</h1>
+            <div class="month">
+                <span>total gross</span><input type="text" id="prevmonthgross">
+                <span>bonus</span><input type="text" id="prevmonthbonus">
+                <span>work hrs</span><input type="text" id="prevmonthworkinghrs">
+                <span>monthly limit hrs</span><input type="text" id="prevmonthlimithrs">
+                <span>justify leave count</span><input type="text" id="prevmonthjustify">
+            </div>
+        </div>
+        <div class="mon befprev">
+            <h1>month before the previous month</h1>
+            <div class="month">
+                <span>total gross</span><input type="text" id="befprevmonthgross">
+                <span>bonus</span><input type="text" id="befprevmonthbonus">
+                <span>work hrs</span><input type="text" id="befprevmonthworkinghrs">
+                <span>monthly limit hrs</span><input type="text" id="befprevmonthlimithrs">
+                <span>justify leave count</span><input type="text" id="befprevmonthjustify">
+            </div>
+        </div>
+        <div class="mon befbef">
+            <h1>month double before the previous month</h1>
+            <div class="month">
+                <span>total gross</span><input type="text" id="befbefprevmonthgross">
+                <span>bonus</span><input type="text" id="befbefprevmonthbonus">
+                <span>work hrs</span><input type="text" id="befbefprevmonthworkinghrs">
+                <span>monthly limit hrs</span><input type="text" id="befbefprevmonthlimithrs">
+                <span>justify leave count</span><input type="text" id="befbefprevmonthjustify">
+            </div>
+        </div>
+    </section>
+    <nav>
+    <button onclick="prevSlide()">Previous</button>
+    <button onclick="nextSlide()">Next</button>
+</nav>
+    <button class="count">count</button>
+    <h1 id="yourSalary"></h1>
+</body>
+</html>
