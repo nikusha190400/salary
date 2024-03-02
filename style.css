@@ -13,7 +13,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .head {
     font-size: 44px;
