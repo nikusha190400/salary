@@ -18,7 +18,7 @@ body {
 .head {
     font-size: 44px;
     text-transform: uppercase;
-    font-family:'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
     letter-spacing: 2px;
     text-shadow: 1px 1px 3px black;
     color: cadetblue;
