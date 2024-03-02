@@ -69,6 +69,7 @@ nav {
 }
 .count img {
     width: 50%;
+    position: relative;
 }
 button {
     display: block;
