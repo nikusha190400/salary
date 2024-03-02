@@ -13,11 +13,12 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 }
 .head {
     font-size: 44px;
     text-transform: uppercase;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, serif
     letter-spacing: 2px;
     text-shadow: 1px 1px 3px black;
     color: cadetblue;
@@ -94,7 +95,26 @@ button {
 button:active {
     transform: scale(0.97);
 }
-
+.union {
+    width: 400px;
+    display: flex;
+    height: 30px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.union img {
+    width: 15%;
+}
 @media screen and (max-width: 600px) {
     .head {
         font-size: 24px;
@@ -123,5 +143,10 @@ button:active {
     #yourSalary {
         font-size: 24px;
         width: 300px;
+    }
+    .union {
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%, 0);
     }
 }
