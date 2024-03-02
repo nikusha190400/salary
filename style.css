@@ -120,22 +120,22 @@ button:active {
     body {
         width: 100vh;
         max-width: 430px;
-        height: 100vh;
+        height: 100%;
     }
     .head {
         font-size: 24px;
     }
 
-.count {
-    left: 0;
-    top: 0;
-    border-radius: 0;
-    width: 60px;
-    height: 200px;
-    transform: translate(0);
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-size: 28px;
+    .count {
+        left: 0;
+        top: 0;
+        border-radius: 0;
+        width: 60px;
+        height: 200px;
+        transform: translate(0);
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        font-size: 28px;
 }
     .mon {
         max-width: 350px;
