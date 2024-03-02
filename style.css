@@ -116,10 +116,10 @@ button:active {
     width: 15%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 430px) {
     body {
         width: 100vh;
-        max-width: 600px;
+        max-width: 430px;
         height: 100vh;
     }
     .head {
