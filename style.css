@@ -151,10 +151,9 @@ button:active {
         width: 300px;
     }
     .union {
-        position: relative;
+        position: fixed;
         top: 0;
         right: 0;
         align-self: center;
-        transform: translate(0);
     }
 }
