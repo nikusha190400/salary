@@ -14,6 +14,8 @@ body {
     justify-content: space-around;
     align-items: center;
     overflow-x: hidden;
+    background-image: url("back.jpg");
+    background-size: cover;
 }
 .head {
     font-size: 44px;
@@ -22,6 +24,13 @@ body {
     letter-spacing: 2px;
     text-shadow: 1px 1px 3px black;
     color: cadetblue;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 .months {
     display: flex;
@@ -33,7 +42,12 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    border: 6px solid blueviolet;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 5px 32px 0 rgba(0, 0, 0, 0.37);
     padding: 15px 25px;
     box-sizing: border-box;
     border-radius: 10px;
@@ -56,7 +70,7 @@ body {
 .month input {
     height: 25px;
     border-radius: 8px;
-    background-color: #eee;
+    background-color: #bfbfbf;
     outline: none;
     border: none;
     text-align: center;
