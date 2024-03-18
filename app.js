@@ -1,3 +1,6 @@
+// first page
+let firstPage = document.querySelector(".information");
+let closeBut = document.querySelector(".closebttn");
 // PREVIOUS MONTH CALCULATE
 let counter = document.querySelector(".count");
 counter.addEventListener ('click', function (){
@@ -84,3 +87,9 @@ var currentSlide = 0;
     }
 
     showSlide(currentSlide);
+
+    closeBut.addEventListener ('click', function(){
+      if (firstPage.style.display === "flex"){
+        firstPage.style.display = "none"
+      }else{firstPage.style.display = "flex"}
+    })
